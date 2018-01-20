@@ -3,27 +3,45 @@
 <head>
 	<title>Greg's List</title>
 	<meta name="description" content="This is a new awesome listing tool that's so much better than Craigslist.">
-	<link rel="stylesheet" type="text/css" href="css-challenge.css">
+	<link rel="stylesheet" type="text/css" href="styles/css-challenge.css">
 </head>
 <body>
+	<div class="nav-div">
+	<!-- nav bar -->
 	<nav>
 		<h1 class="nav-title">Greg's List</h1>
 		<ul>
-			<li>Post</li>
-			<li>Account</li>
+			<li><a href="#">Post</a></li>
+			<li><a href="#">Account</a></li>
 		</ul>
 	</nav>
+	</div>
+<main class="container">
 
+	<!--search-->
 	<div class="search">
-		<h2 class="search-jobs">Search Jobs</h2>
+		<label for="search jobs" class="search-jobs">Search Jobs</label>
 		<form>
-			<input type="search" name="searchbar">
-			<input type="submit" value="Search">
+			<input type="search" placeholder="Search software jobs" class="search-input">
+			<input type="button" class="search-button" />
+			
 		</form>
 	</div>
 
+	<!-- page navigation -->
+		<div class="page-nav prev"> <a href="#">< prev</a></div>
+		<div class="page-nav page">1 to 100 of 179</div>
+		<div class="page-nav next"><a href="#">next ></a></div>
+		<br>
+
+	<!-- search result items -->
+	<div class="search-results">
+		<div class="items"><span class="date">June 22</span><a href="#" class="job-title">Technical Project Manager</a><span class="location">Midtown East</span></div>
+		<div class="items"><span class="date">June 21</span><a href="#" class="job-title">Front End Developer</a><span class="location">SoHo</span></div>
+		<div class="items"><span class="date">June 20</span><a href="#" class="job-title">Senior Python Developer/Cofounder</a><span class="location">Flatiron</span></div>
+	</div>
 
 
-
+</main>
 </body>
 </html>

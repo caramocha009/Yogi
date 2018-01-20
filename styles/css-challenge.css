@@ -1,0 +1,136 @@
+nav {
+	height: 50px;
+	background-color: #d3d3d3;
+	text-align: right;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.nav-title {
+	font-family: Arial;
+	font-size: 18pt;
+	font-weight: 500;
+	position: absolute;
+	margin-left: 20px;
+}
+
+nav a {
+	font-family: Arial;
+	font-size: 16pt;
+}
+
+nav a:link {
+	text-decoration: none;
+	color: purple;
+}
+
+li {
+	display: inline;
+	margin-right: 10px;
+	position: relative;
+}
+
+.container {
+	margin-left: 10%;
+	margin-top: 20px;
+}
+
+.search-jobs {
+	font-family: arial;
+	font-weight: 500;
+	font-size: 14pt;
+}
+
+input.search-input {
+	margin-top: 5px;
+	width: 50%;
+	padding-top: 12px;
+	padding-left: 12px;
+	padding-bottom: 12px;
+	border: 3px solid #cccccc;
+	border-radius: 4px;
+	font-size: 16pt;
+	position: static;
+}
+
+input.search-button {
+	margin-top: 5px;
+	height: 55px;
+	width: 55px;
+	border: 3px solid #cccccc;
+	border-radius: 4px;
+	background-image: url(../magnifying-glass.png);
+	background-size: contain;
+	position: absolute;
+	margin-left: 10px;
+}
+
+form {
+	margin-bottom: 40px;
+}
+
+.page-nav {
+	float:left;	
+	border: 2px solid #cccccc;
+	margin: 0px;
+	font-family: Arial;
+
+}
+
+.page-nav a {
+	text-decoration: none;
+	color: black;
+}
+
+.prev {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-right: none;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+.page {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.next {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-left: none;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+.search-results {
+	margin-top: 90px;
+	font-family: Arial;
+	font-size: 16pt;
+	font-weight: normal;
+	color: #99A3A4;
+}
+
+span {
+	margin-right: 15px;
+}
+
+.items {
+	margin-bottom: 20px;
+}
+
+.items a {
+	margin-right: 15px;
+	text-decoration: none;
+}
+
+.items .job-title {
+	color: blue;
+	font-weight: 600;
+}
